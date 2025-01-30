@@ -157,7 +157,7 @@ sendToWaButton.addEventListener("click", () => {
     message += `Total: Rp ${totalPriceElement.textContent}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const waLink = `https://wa.me/6285702570795?text=${encodedMessage}`; // Ganti nomor WA di sini
+    const waLink = `https://wa.me/62895392680647?text=${encodedMessage}`; // Ganti nomor WA di sini
     window.open(waLink, "_blank");
 });
 
